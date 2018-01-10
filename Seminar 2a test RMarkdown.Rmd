@@ -1,8 +1,8 @@
 ---
 title: "Seminar2a test RMarkdown"
 author: "Frederike Basedow"
-date: "10 1 2018"
-output: html_document
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +28,20 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+### testing headers and lists
+
+* to do
+    * practice assignment
+    
+[This is a link to the course website](https://stat540-ubc.github.io/)
+
+![This is an image of a cat](https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg)
+_testing italics_
+
+*testing other italics*
+
+**bold 1**
+
+__bold 2__
+
